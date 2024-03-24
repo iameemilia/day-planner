@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+}
+
+.task-input {
+    margin-bottom: 20px;
+}
+
+.task-input :focus {
+    outline: none;
+    border-color: antiquewhite;
+    box-shadow: 0 0 10px rgb(255, 206, 172);
+}
+
+.task-input input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.task-list-container {
+    width: 300px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+
+}
+
+img {
+    width: 200px;
+}
